@@ -1,4 +1,4 @@
-const dividir = require('../src/ejemplo');
+const {dividir, restar } = require('../src/ejemplo');
 
 // ==========================================
 // 1. 3 grupos de valores con tipo correcto
