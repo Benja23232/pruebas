@@ -11,5 +11,13 @@ function dividir(a, b) {
 
   return a / b;
 }
+// Agregacion de funcion de restar
+function restar(a, b) {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        throw new Error('Los parámetros deben ser numéricos');
+    }
+    return a - b;
+}
 
-module.exports = dividir;
+
+module.exports = { dividir, restar };

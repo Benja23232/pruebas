@@ -30,3 +30,14 @@ test.each([
 ])('Debe lanzar un error si %s', (a, b) => {
   expect(() => dividir(a, b)).toThrow('Ambos parámetros deben ser numéricos');
 });
+
+
+// ==========================================
+// Prueba para funcion de resta
+// ==========================================
+
+describe('Pruebas para la función restar', () => {
+    test('Debe restar correctamente dos valores numéricos', () => {
+        expect(restar(10, 4)).toBe(6);
+    });
+});
